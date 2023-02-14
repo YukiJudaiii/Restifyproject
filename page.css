@@ -10,71 +10,7 @@ body {
 	color: #333;
 }
 
-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 20px;
-	background-color: #fff;
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-	position: sticky;
-	top: 0;
-	z-index: 999;
-}
 
-.logo {
-	display: flex;
-	height: 100px;
-}
-
-nav ul {
-	display: flex;
-	list-style: none;
-}
-
-nav ul li {
-	margin: 0 20px;
-}
-
-nav ul li a {
-	text-decoration: none;
-	color: #333;
-	font-weight: bold;
-	transition: color 0.2s;
-}
-
-nav ul li a:hover {
-	color: #f4a261;
-}
-
-.search-bar {
-	display: flex;
-	align-items: center;
-}
-
-.search-bar input[type="text"] {
-	padding: 10px;
-	border: none;
-	border-bottom: 2px solid #333;
-	font-size: 16px;
-	color: #333;
-	background-color: #f8f8f8;
-}
-
-.search-bar button {
-	padding: 10px 20px;
-	background-color: #f4a261;
-	color: #fff;
-	border: none;
-	cursor: pointer;
-	margin-left: 20px;
-	font-size: 16px;
-	transition: background-color 0.2s;
-}
-
-.search-bar button:hover {
-	background-color: #f3722c;
-}
 
 .banner {
 	display: flex;
@@ -133,6 +69,8 @@ nav ul li a:hover {
 }
 
 .stay {
+	text-decoration: none;
+	color: #333;
 	background-color: #f8f8f8;
 	padding: 20px;
 	margin-bottom: 10px;
