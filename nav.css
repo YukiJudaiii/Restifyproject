@@ -1,85 +1,170 @@
-.header{
-    margin-top: 60px;
-    width: 100%;
-    height: 60vh;
-    background-color: #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/house.jpeg);
-    background-size: cover;
-    background-position: center;
-    
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
-
-.header{
-    margin-top: 60px;
+.logged_nav{
     width: 100%;
-    height: 60vh;
-    background-color: #fff;
-    background-size: cover;
-    background-position: center;
-    
+    color: #525252;
+    background-color: transparent;
 }
-
-.header nav{
-    width: 100%;
-    height: 65px;
-    flex-direction: row;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #394159;
-}
-
 nav{
+    background: #394159;
     width: 100%;
-    height: 65px;
-    flex-direction: row;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
+    padding: 10px 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-}
-
-nav .logo{
-    width: 60px;
-    margin-left: -40px;
-}
-
-nav .logo1{
-    width: 130px;
-    margin-left: -550px;
-}
-
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
     position: relative;
 }
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 17px;
+.logo{
+    width: 160px;
 }
-
-nav ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #6C98C6;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+.bell{
+    width: 30px;
+    transform:translateY(5px);
 }
+.bell:hover{
+    cursor: pointer;
 
-nav ul li:hover::after{
+}
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav ul{
+    text-align: right;
     width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    z-index: 999;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+
+.sub-menu{
+    background: #fff;
+    padding: 20px;
+    margin: 7.5px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h3{
+    font-weight: 500;
+}
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link img{
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px 8px;
+    margin-right: 15px;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+.notify-wrap{
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    z-index: 998;
+    transition: max-height 0.5s;
+}
+.notify-wrap.open-menu{
+    max-height: 800px;
+}
+
+.notify{
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.notify hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.notify-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.notify-link p{
+    width: 100%;
+}
+.notify-link img{
+    width: 50px;
+    background: #e5e5e5;
+    border-radius: 80%;
+    padding: 8px;
+    margin-right: 15px;
+}
+.notify-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+.notify-link:hover span{
+    transform: translateX(5px);
+}
+.notify-link:hover p{
+    font-weight: 600;
 }

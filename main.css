@@ -65,14 +65,10 @@ nav{
 }
 
 nav .logo{
-    width: 60px;
+    width: 160px;
     margin-left: -40px;
 }
 
-nav .logo1{
-    width: 130px;
-    margin-left: -550px;
-}
 
 nav ul li{
     list-style: none;
