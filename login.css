@@ -151,5 +151,11 @@ input-group2{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
     
+}
+
+label{
+    width: 300px;
+    transform: translateX(-80px);
 }
