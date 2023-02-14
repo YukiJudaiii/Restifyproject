@@ -10,8 +10,6 @@ body {
 	color: #333;
 }
 
-
-
 .banner {
 	display: flex;
 	align-items: center;
@@ -85,56 +83,4 @@ body {
 .stay p {
 	font-size: 16px;
 	margin-bottom: 10px;
-}
-
-.my-hostings {
-	padding: 50px 20px;
-}
-
-.my-hostings h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-.hosting {
-	background-color: #f8f8f8;
-	padding: 20px;
-	margin-bottom: 10px;
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-	position: relative;
-}
-
-.hosting h3 {
-	font-size: 20px;
-	margin-bottom: 10px;
-}
-
-.hosting p {
-	font-size: 16px;
-	margin-bottom: 10px;
-}
-
-.hosting a {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	font-size: 14px;
-	color: #333;
-	text-decoration: none;
-	padding: 5px;
-	border: 1px solid #333;
-	border-radius: 5px;
-}
-
-.hosting a:hover {
-	background-color: #333;
-	color: #fff;
-}
-
-.recommendations {
-	padding: 50px 20px;
-}
-
-.recommendations h2 {
-	font-size: 24px;
 }
