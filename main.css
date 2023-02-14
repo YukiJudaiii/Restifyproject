@@ -364,7 +364,7 @@ span{
 
 .search-bar1{
     background: #fff;
-    max-width: 300px;
+    max-width: 400px;
     display: flex;
     padding: 2px;
     border-radius: 4px;
@@ -378,16 +378,16 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    width: 150px;
+    width: 250px;
     cursor: pointer;
     position: relative;
-    margin-top: -3pt;
+    margin-top: -4pt;
 }
 #select img{
     width: 15px;
 }
 #select ul{
+    font-size: 20px;
     position: absolute;
     top: 120%;
     left: 0;
@@ -407,4 +407,9 @@ span{
 
 #select ul.open{
     max-height: 300px;
+}
+
+.orders{
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
 }
