@@ -1,4 +1,4 @@
-/* .header{
+.header{
     margin-top: 60px;
     width: 100%;
     height: 100%;
@@ -15,7 +15,7 @@
     width: 100%;
     color: #525252;
     background-color: transparent;
-} */
+}
 nav{
     background: #394159;
     width: 100%;
