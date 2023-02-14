@@ -10,7 +10,9 @@
     
     <div class="header">
         <nav>
-            <img src="images/nav_bar/web_logo.png" class="logo">
+            <a href="logged_main.html">
+                <img src="images/nav_bar/web_logo.png" class="logo">
+            </a>
             <ul>
                 <li><a href="./home.html">HOME</a></li>
                 <li><a href="./signup.html">SIGN UP</a></li>
@@ -66,7 +68,7 @@
                  
                      for(order of orders){
                          order.onclick = function(){
-                             selectText.innerHTML = "Order By : "+ this.innerHTML ;
+                             selectText.innerHTML = "Sort By : "+ this.innerHTML ;
                          }
                      }
                  </script>
