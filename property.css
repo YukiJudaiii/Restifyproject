@@ -288,6 +288,39 @@ nav.navbar-white .fa-bars{
     color: #00bfff;
 }
 
+.cancel-button{
+    float: right;
+    background-color: #ff5361;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -60px;;
+}
+
+.cancel-button:hover{
+    background-color: #fff;
+    color: #00bfff;
+}
+
+.comment-button{
+    float: right;
+    background-color: #394159;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -60px;;
+}
+
+.comment-button:hover{
+    background-color: #fff;
+    color: #00bfff;
+}
 
 .house-info h3{
     font-weight: 600;

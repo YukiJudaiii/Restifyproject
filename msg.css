@@ -77,7 +77,7 @@ body {
 }
 
 .messages h2 {
-    background-color: #F1A581;
+    background-color: #394159;
     color: #fff;
     padding: 10px;
     font-size: 18px;
@@ -107,21 +107,30 @@ body {
     max-width: 80%;
 }
 
-.messages li.sent p {
-    float: right;
-    background-color: #F1A581;
-    color: #fff;
-}
-
-.messages li span.time {
-    display: block;
-    font-size: 12px;
-    color: #777;
+.messages li.sent{
+    
     text-align: right;
 }
 
+.messages li.sent p {
+    
+    display: inline-block;
+    
+    background-color: #F1A581;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.messages li span.time {
+ 
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+    
+}
+
 .messages li span.time1 {
-    display: block;
+    display: inline-block;
     font-size: 12px;
     color: #777;
     text-align: left;
