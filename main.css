@@ -314,10 +314,10 @@ span{
 }
 
 .footer{
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
-    padding: 100px 15%;
-    background: #333;
+    padding: 60px 10%;
+    background: #394159;
     color: #efefef;
     display: flex;
 }
@@ -344,7 +344,7 @@ span{
     border-radius: 4px;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     outline: none;
     border: none;
 }
@@ -358,7 +358,7 @@ span{
     cursor: pointer;
 }
 .footer .social-icons{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .footer .social-icons i{
     font-size: 22px;
