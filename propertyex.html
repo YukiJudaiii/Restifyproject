@@ -3,6 +3,7 @@
 <head>
  <link rel="stylesheet" href="property.css">
  <link rel="stylesheet" href="nav.css">
+ <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="logged_nav">
@@ -151,7 +152,59 @@
             </div>
         </div>
         <hr class="line">
+        <div class="review-card">
+            <div class="user-info">
+                <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Avatar">
+                <h3>Emily</h3>
+            </div>
+            <div class="review-details">
+                <p class="review-date">Reviewed on June 10, 2021</p>
+                <div class="prop-info">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text">Vincent's dream house was absolutely perfect for our stay in LA. Highly recommend!</p>
+            </div>
+        </div>
+        <div class="review-card">
+            <div class="user-info">
+                <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="Avatar">
+                <h3>Lisa</h3>
+            </div>
+            <div class="review-details">
+                <p class="review-date">Reviewed on June 10, 2021</p>
+                <div class="prop-info">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text">Good!</p>
+            </div>
+        </div>
+        <div class="write-review">
+            <h3>How was your experence? You can comment here:</h3>
+            <form>
+                <label for="rating">Rating</label>
+                <select id="rating" name="rating" class="rating" required>
+                  <option value="">Select a rating</option>
+                  <option value="5">5 stars</option>
+                  <option value="4">4 stars</option>
+                  <option value="3">3 stars</option>
+                  <option value="2">2 stars</option>
+                  <option value="1">1 star</option>
+                </select>
+                <label for="review">Review</label>
+                <textarea id="review" name="review" rows="5" required></textarea>
 
+              <button type="submit" class="submit-button">Submit Review</button>
+            </form>
+        </div>
+          
     </div>
 
 </body>
