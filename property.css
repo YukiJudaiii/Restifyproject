@@ -244,3 +244,32 @@
     font-weight: 500;
 }
 
+.host i{
+    color: #ff5361;
+}
+.contact-host{
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    color: #555;
+    padding: 15px 50px;
+    border: 1px solid #ff5361;
+    border-radius: 8px;
+}
+
+.add-button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 50px;
+    background: #ff5361;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.add-button:hover{
+    background: #fff;
+    color: #6C98C6;
+    cursor: pointer;
+}
+

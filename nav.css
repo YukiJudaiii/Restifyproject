@@ -1,11 +1,12 @@
-.header{
+/* .header{
     margin-top: 60px;
     width: 100%;
-    height: 60vh;
+    height: 100%;
     background-color: #fff;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/house.jpeg);
     background-size: cover;
     background-position: center;
+    min-height: 700px;
     
 }
 
@@ -14,14 +15,14 @@
     width: 100%;
     color: #525252;
     background-color: transparent;
-}
+} */
 nav{
     background: #394159;
     width: 100%;
-    padding: 10px 4%;
+    padding: 10px 1%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     position: relative;
 }
 .logo{

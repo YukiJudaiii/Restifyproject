@@ -8,7 +8,6 @@
 .profile{
     width: 100vw;
     height: 700px;
-    background-image: url(./images/castle.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -20,8 +19,8 @@
 
 .profile_left{
     position: absolute;
-    top: 100px;
-    left: 10%;
+    top: 70px;
+    left: 8%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -30,12 +29,13 @@
     padding: 80px 20px;
     font-family: 'Poppins', sans-serif;
     background-color: #F5F5F5;
+    min-width: 400px;
 }
 
 .profile_right{
     position: absolute;
-    top: 80px;
-    right: 10%;
+    top: 70px;
+    right: 5%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -49,7 +49,7 @@
 .profile_pic{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 5%;
     border: 2px solid #fff;
     box-shadow: 0 2px 2px rgba(0,0,0,0.3);
 }
@@ -73,6 +73,7 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    margin: 10px;
 }
 
 .btn-field button span {

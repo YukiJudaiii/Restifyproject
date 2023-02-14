@@ -2,10 +2,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Edit House</title>
+    <link rel="stylesheet" href="new_house.css">
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="profile.css">
-
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 
 </head>
@@ -13,8 +12,8 @@
     <div class="logged_nav">
         <nav>
             <a href="logged_main.html">
-				<img src="images/nav_bar/web_logo.png" class="logo">
-			</a>
+            <img src="images/nav_bar/web_logo.png" class="logo">
+            </a>
             <ul>
                 <li><a href="listing.html">My Reservations</a></li>
                 <li><a href="stays.html">Tenant</a></li>
@@ -58,14 +57,14 @@
                 </a>
                 <hr>
 
-                <a href="msg.html" class="notify-link">
+                <a href="#" class="notify-link">
                     <img src="images/nav_bar/Jac.jpg">
                     <p>Message from Jacqueline</p>
                 </a>
-                <a href="msg.html" class="notify-link">
+                <a href="#" class="notify-link">
                     <img src="images/nav_bar/terry.jpeg">
                     <p>Message from Terry</p>
-                </a><a href="msg.html" class="notify-link">
+                </a><a href="#" class="notify-link">
                     <img src="images/nav_bar/Vincent.jpeg">
                     <p>Message from Vincent</p>
                 </a>
@@ -95,14 +94,18 @@
     <div class="profile">
         <div class=profile_left>
             <div class="profile_image">
-                <img src="images/user.jpg" alt="profile" class="profile_pic">
+                <img src="images/house1.jpg" alt="profile" class="profile_pic">
             </div>
             <div class="profile_info">
-                <h1>User Name: Owen Zhang</h1>
-                <h1>User ID: #305786</h1>
+                <h2>Property Name: </h2>
+                <div class="input-field">
+                    <i class="fa-solid fa-edit"></i>
+                    <input type="text" placeholder="Deluxe One Bedroom at Beverley Hill">
+                </div>
+                <h2>Property ID: #45786</h2>
             </div> 
             <div class="btn-field">
-                <button type="button" id="signinBtn"><span></span>Update Photo</button>
+                <button type="button" id="signinBtn"><span></span>Upload Photo</button>
 
             </div>
         </div>
@@ -112,48 +115,58 @@
                 <div class="input-group">
                     
                     <div class="input-pair">
-                        <p>First Name: </p>
+                        <p>Owner First Name: </p>
                         <div class="input-field">
                             <i class="fa-solid fa-edit"></i>
-                            <input type="text">
+                            <input type="text" placeholder="Vincent">
                         </div>
-                        <p>Last Name: </p>
+                        <p>Owner Last Name: </p>
                         <div class="input-field">
                             <i class="fa-solid fa-edit"></i>
-                            <input type="text">
+                            <input type="text" placeholder="Chen">
                         </div>
                     </div> 
                     
 
                     <div class="input-pair">
-                        <p>Address1: </p>
+                        <p> Property Address: </p>
                         <div class="input-field" style="width:190%;">
                             <i class="fa-solid fa-location"></i>
-                            <input type="text">
+                            <input type="text" placeholder="Los Angles">
                         </div>
                     </div> 
                 
                     <div class="input-pair">
-                        <p>Address2: </p>
-                        <div class="input-field" style="width:190%;">
-                            <i class="fa-solid fa-location"></i>
-                            <input type="text">
+                        <p>Price: </p>
+                        <div class="input-field">
+                            <i class="fa-solid fa-dollar"></i>
+                            <input type="number" placeholder="208">
                         </div>
-                    </div> 
-                    
-                    <div class="input-pair">
-                        <p>Phone Number: </p>
-                        <div class="input-field" style="width:190%;">
-                            <i class="fa-solid fa-phone"></i>
-                            <input type="text">
+                        <p>Number of Guests: </p>
+                        <div class="input-field">
+                            <i class="fa-solid fa-question"></i>
+                            <input type="number" placeholder="2">
                         </div>
                     </div> 
 
                     <div class="input-pair">
-                        <p>Emergency Contact: </p>
+                        <p>Number of Bedrooms: </p>
+                        <div class="input-field">
+                            <i class="fa-solid fa-question"></i>
+                            <input type="number" placeholder="1">
+                        </div>
+                        <p>Number of Washrooms:: </p>
+                        <div class="input-field">
+                            <i class="fa-solid fa-question"></i>
+                            <input type="number" placeholder="1">
+                        </div>
+                    </div> 
+                    
+                    <div class="input-pair">
+                        <p>Contact Number: </p>
                         <div class="input-field" style="width:190%;">
                             <i class="fa-solid fa-phone"></i>
-                            <input type="text">
+                            <input type="tel" placeholder="123-456-789">
                         </div>
                     </div> 
 
@@ -161,14 +174,15 @@
                         <p>Email:    </p>
                         <div class="input-field" style="width:190%;">
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="text">
+                            <input type="email" placeholder="Fakemail@gmail.com">
                         </div>
                     </div> 
 
                     
                 </div>
                 <div class="btn-field">
-                    <button type="button" id="signinBtn"><span></span>Update Profile</button>
+                    <a href="hosts.html"><button type="button" id="signinBtn" style="color:#ff5361; border-color:#ff5361"><span></span>Cancel</button> </a>
+                    <a href="hosts.html"><button type="button" id="signinBtn"><span></span>Update Info</button></a>
     
                 </div>
             </form>
