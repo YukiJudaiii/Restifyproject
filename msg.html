@@ -4,33 +4,111 @@
     <meta charset="UTF-8">
     <title>Chatting Window</title>
     <link rel="stylesheet" href="msg.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <header>
-        <h1>Messages</h1>
-        <button class="profile-btn">Home</button>
-    </header>
+    <div class="logged_nav">
+        <nav>
+            <a href="logged_main.html">
+            <img src="images/nav_bar/web_logo.png" class="logo">
+            </a>
+            <ul>
+                <li><a href="listing.html">My Reservations</a></li>
+                <li><a href="stays.html">Tenant</a></li>
+                <li><a href="hosts.html">Host</a></li>
+                <li>
+                    <img src="images/nav_bar/bell.png" class="bell" onclick="togglebell()">
+                  </ul>
+                </li>
+            </ul>
+            <img src="images/nav_bar/user.JPG" class="user-pic" onclick="toggleMenu()">
+
+           <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/nav_bar/user.JPG">
+                    <h3>Owen Zhang</h3>
+                </div>
+                <hr>
+
+                <a href="profile.html" class="sub-menu-link">
+                    <img src="images/nav_bar/profile.png">
+                    <p>Edit Profile</p>
+                </a>
+                <a href="comments.html" class="sub-menu-link">
+                    <img src="images/nav_bar/message.png">
+                    <p>Comments</p>
+                </a>
+                <a href="home.html" class="sub-menu-link">
+                    <img src="images/nav_bar/logout.png">
+                    <p>Logout</p>
+                </a>
+
+            </div>
+           </div>
+
+           <div class="notify-wrap" id="notify">
+            <div class="notify">
+                <a href="#" class="notify-link">
+                    <img src="images/nav_bar/red_bell.png">
+                    <h3>Notification</h3>
+                </a>
+                <hr>
+
+                <a href="#" class="notify-link">
+                    <img src="images/nav_bar/Jac.jpg">
+                    <p>Message from Jacqueline</p>
+                </a>
+                <a href="#" class="notify-link">
+                    <img src="images/nav_bar/terry.jpeg">
+                    <p>Message from Terry</p>
+                </a><a href="#" class="notify-link">
+                    <img src="images/nav_bar/Vincent.jpeg">
+                    <p>Message from Vincent</p>
+                </a>
+
+            </div>
+           </div>
+
+        </nav>
+    </div>
+
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+
+    let notify = document.getElementById("notify");
+
+    function togglebell(){
+        notify.classList.toggle("open-menu");
+    }
+</script>
 
     <section class="container">
         <div class="contacts">
             <h2>Contacts</h2>
             <ul>
-                <li class="active"><img src="avatar1.jpg" alt="Avatar"><span>John</span></li>
-                <li><img src="avatar2.jpg" alt="Avatar"><span>Jane</span></li>
-                <li><img src="avatar3.jpg" alt="Avatar"><span>Mike</span></li>
-                <li><img src="avatar4.jpg" alt="Avatar"><span>Sara</span></li>
+                <li class="active"><img src="images/nav_bar/Jac.jpg" alt="Avatar"><span>Jacqueline</span></li>
+                <li><img src="images/nav_bar/nomi.jpg" alt="Avatar"><span>Nomi</span></li>
+                <li><img src="images/nav_bar/suibian.jpg" alt="Avatar"><span>Suibian</span></li>
+                <li><img src="images/nav_bar/liuziyi.jpg" alt="Avatar"><span>Liuziyi</span></li>
             </ul>
         </div>
 
         <div class="messages">
-            <h2>John</h2>
+            <h2>Jacqueline</h2>
             <ul>
                 <li class="sent">
-                    <p>Hello, how are you doing?</p>
-                    <span class="time">12:30 PM</span>
+                    <p>Hey, what's your plan for Valentine's Day?</p>
+                    <span class="time1">12:30 PM</span>
                 </li>
                 <li class="received">
-                    <p>I'm doing well, thanks for asking.</p>
+                    <p>Oh, I have to stay with my cats.</p>
                     <span class="time">12:31 PM</span>
                 </li>
             </ul>
