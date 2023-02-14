@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chatting Window</title>
-    <link rel="stylesheet" href="msg.css">
-    <link rel="stylesheet" href="nav.css">
+ <link rel="stylesheet" href="property.css">
+ <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <div class="logged_nav">
         <nav>
+
             <a href="logged_main.html">
             <img src="images/nav_bar/web_logo.png" class="logo">
             </a>
+
             <ul>
                 <li><a href="listing.html">My Reservations</a></li>
                 <li><a href="stays.html">Tenant</a></li>
@@ -36,7 +36,9 @@
                     <p>Edit Profile</p>
                 </a>
                 <a href="comments.html" class="sub-menu-link">
+
                     <img src="images/nav_bar/message.png">
+
                     <p>Comments</p>
                 </a>
                 <a href="home.html" class="sub-menu-link">
@@ -54,6 +56,7 @@
                     <h3>Notification</h3>
                 </a>
                 <hr>
+
 
                 <a href="msg.html" class="notify-link">
                     <img src="images/nav_bar/Jac.jpg">
@@ -88,47 +91,40 @@
         notify.classList.toggle("open-menu");
     }
 </script>
-
-    <section class="container">
-        <div class="contacts">
-            <h2>Contacts</h2>
-            <ul>
-                <li class="active"><img src="images/nav_bar/Jac.jpg" alt="Avatar"><span>Jacqueline</span></li>
-                <li><img src="images/nav_bar/nomi.jpg" alt="Avatar"><span>Nomi</span></li>
-                <li><img src="images/nav_bar/suibian.jpg" alt="Avatar"><span>Suibian</span></li>
-                <li><img src="images/nav_bar/liuziyi.jpg" alt="Avatar"><span>Liuziyi</span></li>
-            </ul>
+    <div class="props">
+        <div class="prop-title">
+            <h1>Your Reservation has been Canceled!</h1>
+            <h2>Vincent Dream Place</h2>
         </div>
 
-        <div class="messages">
-            <h2>Jacqueline</h2>
-            <ul>
-                <li class="sent">
-                    <span class="time">9:30 AM</span>
-                    <p>Good morning. Do you have an approximate departure time in mind for today?</p>
-                    
-                </li>
-                <li class="received">
-                    <p>We plan to leave at 11. Could you let her arrived after 11?</p>
-                    <span class="time1">9:31 AM</span>
-                </li>
-                <li class="sent">
-                    
-                    <span class="time">9:35 AM</span>
-                    <p>No problem.</p>
-                </li>
-                <li class="received">
-                    <p>Thank you!</p>
-                    <span class="time1">9:44 AM</span>
-                </li>
-            </ul>
+        <div class="picture"><img src="images/house1.jpg"></div>
 
-            <div class="input">
-                <input type="text" placeholder="Type a message...">
-                <button>Send</button>
+        <div class="list-details">
+            <h2>Hosted by Vincent</h2>
+            <p>2 guest / 1 bed / 1 bathroom</p>
+            <h4>Total Price: $2,300</h4>
+        </div>
+
+        <hr class="line">
+        <div class="host">
+            <img src="images/usericon.jpg">
+            <div>
+                <h2>Vincent</h2>
+                <p><span>
+                </span>103 reviews </p>
             </div>
+            
         </div>
-    </section>
+
+        <h2>Host Contact</h2>
+        <p>Name: Vincent Chen</p>
+        <p>Email: vincent.chen@gogle.com</p>
+        <p>Phone: +1 123 456 7890</p>
+        
+        <hr class="line">
+        <h2>Need Help?</h2>
+        <p class="moreinfo">Please contact us at <a href="mailto:help@exp.com">help@exp.com</a> or click <a href="cancel.html">here</a> to cancel</p>
+    </div>
 
 </body>
 </html>

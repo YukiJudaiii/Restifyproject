@@ -69,10 +69,6 @@
         transform: translate(235%, -20%);
         
     }
-
-    .container1{
-        z-index: 999;
-    }
 }
 
 .header h1{
