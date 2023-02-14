@@ -26,6 +26,11 @@
 .prop-lists{
     flex-basis: 65%;
 }
+
+.prop-lists h1{
+    margin-bottom: 10px;
+}
+
 .right-bar{
     flex-basis: 19%;
 }
