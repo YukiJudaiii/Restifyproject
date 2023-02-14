@@ -525,3 +525,19 @@ nav.navbar-white .fa-bars{
     border: 1px solid #ff5361;
     border-radius: 8px;
 }
+
+.add-button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 50px;
+    background: #ff5361;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.add-button:hover{
+    background: #fff;
+    color: #6C98C6;
+    cursor: pointer;
+}
