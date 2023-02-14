@@ -31,7 +31,7 @@
     margin-bottom: 10px;
 }
 
-.right-bar{
+.filter-bar{
     flex-basis: 19%;
 }
 
@@ -98,13 +98,13 @@
     font-weight: 550;
 }
 
-.bar{
+.ticks{
     border: 0.5px solid #ccc;
     padding: 20px 30px;
     margin-top: 20px;
 }
 
-.bar h3{
+.ticks h3{
     font-weight: 400;
     margin: 10px 0 10px;
 }
