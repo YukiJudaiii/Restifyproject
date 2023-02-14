@@ -1,0 +1,202 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+.logo {
+	display: flex;
+	height: 100px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin: 0 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	transition: color 0.2s;
+}
+
+nav ul li a:hover {
+	color: #f4a261;
+}
+
+.search-bar {
+	display: flex;
+	align-items: center;
+}
+
+.search-bar input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #333;
+	font-size: 16px;
+	color: #333;
+	background-color: #f8f8f8;
+}
+
+.search-bar button {
+	padding: 10px 20px;
+	background-color: #f4a261;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-left: 20px;
+	font-size: 16px;
+	transition: background-color 0.2s;
+}
+
+.search-bar button:hover {
+	background-color: #f3722c;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+	background-image: url("https://images.lifestyleasia.com/wp-content/uploads/sites/6/2022/02/18174834/USMRK-P0083-Lobby-1.16x9-1600x900.jpg?tr=w-1600");
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-text {
+	text-align: center;
+	color: #fff;
+}
+
+.banner-text h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text p {
+	font-size: 24px;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: #f4a261;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.2s;
+}
+
+.button:hover {
+	background-color: #f3722c;
+}
+
+.my-stays {
+	padding: 50px 20px;
+	background-color: #f8f8f8;
+}
+
+.my-stays h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: #333;
+}
+
+.stay {
+	background-color: #f8f8f8;
+	padding: 20px;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stay h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.stay p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.my-hostings {
+	padding: 50px 20px;
+}
+
+.my-hostings h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.hosting {
+	background-color: #f8f8f8;
+	padding: 20px;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+.hosting h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.hosting p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.hosting a {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+.hosting a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.recommendations {
+	padding: 50px 20px;
+}
+
+.recommendations h2 {
+	font-size: 24px;
+}
