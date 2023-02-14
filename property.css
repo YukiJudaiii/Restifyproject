@@ -129,37 +129,7 @@ nav ul li:hover::after{
     text-align: center;
     padding-top: 22%;
 }
-.search-bar{
-    background: #fff;
-    width: 70%;
-    margin: 30px auto;
-    padding: 6px 10px 6px 30px;
-    border-radius: 50px;
-}
-.search-bar form{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.search-bar form input{
-    display: block;
-    border: 0;
-    outline: none;
-    background: transparent;
-}
-.search-bar form button{
-    background: #ff5361;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-}
-.search-bar form button img{
-    width: 15px;
-    margin-top: 7px;
-}
+
 .location-input{
     flex: 1;
 }
@@ -328,106 +298,8 @@ nav ul li:hover::after{
 nav .fa-bars{
     display: none;
 }
-/* ---------for small screen devices--- */
-@media only screen and (max-width: 700px){
 
-    .logo{
-        position: fixed;
-        top: 4%;
-        left: 7%;
-    }
-    nav{
-        position: fixed;
-        top: 0;
-        z-index: 100;
-        display: inline-block;
-        width: 100%;
-        padding: 100px 7% 0;
-        background: #000;
-        text-align: right;
-        max-height: 100px;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-    nav .nav-links li{
-        margin: 10px 0;
-        display: block;
-    }
-    .register-btn{
-        margin: 15px 0 30px;
-        display: inline-block;
-    }
-    nav .fa-bars{
-        display: block;
-        position: fixed;
-        top: 4%;
-        right: 7%;
-        color: #fff;
-        font-size: 28px;
-    }
-    .active::after{
-        left: -40px;
-        transform: translate(0, 50%);
-        bottom: 50%;
-    }
-    .hidemenu{
-        max-height: 300px;
-    }
-    .header h1{
-        padding-top: 200px;
-        font-size: 7vw;
-    }
-    .search-bar{
-        width: 90%;
-        margin: 30px auto;
-        padding: 20px 10px 30px;
-        border-radius: 5px;
-        position: relative;
-    }
-    .search-bar form{
-        display: block;
-    }
-    .search-bar form input{
-        border-bottom: 1px solid #ddd;
-        width: 100%;
-        margin-bottom: 20px;
-        margin-top: 10px;
-        padding-bottom: 10px;
-    }
-    .search-bar form button{
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%, 50%);
-    }
-    .sub-title{
-        font-size: 6vw;
-    }
-    .cta{
-        padding: 15% 5%;
-    }
-    .cta h3{
-        font-size: 7vw;
-        line-height: 8vw;
-    }
-    .cta p{
-        font-size: 14px;
-    }
-    .cta-btn{
-        padding: 6px 15px;
-        border-radius: 4px;
-        margin-top: 10px;
-        font-size: 14px;
-    }
-    .stories p{
-        font-size: 22px;
-    }
-    .about-msg{
-        font-size: 15px;
-    }
-}
 
-/* ----------- listing page---- */
 
 .navbar-white{
     background: #6C98C6;
@@ -651,16 +523,19 @@ nav.navbar-white .fa-bars{
     border: 0;
     outline: none;
 }
-.checkin-form button{
+.submit-button{
     background: #ff5361;
     border: 0;
     outline: none;
     color: #fff;
-    padding: 18px;
-    width: 350px;
-    border-radius: 8px;
+    padding: 17px;
+    width: 300px;
+    border-radius: 7px;
     font-size: 16px;
+    text-align: center;
+    text-decoration: dashed;
 }
+
 .guest-field{
     flex: 1;
 }
@@ -731,50 +606,4 @@ nav.navbar-white .fa-bars{
     padding: 15px 50px;
     border: 1px solid #ff5361;
     border-radius: 8px;
-}
-/* -----media query for house details page---------- */
-@media only screen and (max-width: 700px){
-    .props{
-        margin-top: 150px;
-    }
-    .row p{
-        margin-top: 10px;
-    }
-    .gallery{
-        grid-template-areas: 'first first' '. .' '. .';
-    }
-    .small-details h2{
-        font-size: 20px;
-        margin-top: 24px;
-    }
-    .small-details h4{
-        text-align: left;
-        margin: 10px 0;
-        font-size: 18px;
-    }
-    .checkin-form{
-        padding: 10px 30px;
-    }
-    .checkin-form div{
-        padding: 20px 0;
-        width: 100%;
-    }
-    .checkin-form input{
-        border-bottom: 1px solid #ccc;
-        width: 100%;
-        padding-bottom: 5px;
-    }
-    .checkin-form button{
-        font-size: 14px;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        border-radius: 4px;
-    }
-    .host{
-        display: block;
-        line-height: 28px;
-    }
-    .contact-host{
-        margin: 40px 0;
-    }
 }
