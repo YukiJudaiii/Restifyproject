@@ -87,6 +87,7 @@ form p a{
     display: flex;
     justify-content: center;
 }
+
 .btn-field button{
     text-decoration: none;
     display: inline-block;
@@ -129,7 +130,7 @@ form p a{
     margin-bottom: -80px;
 }
 
-input-group2{
+.input-group2{
     height: 280px;
     display: flex;
     flex-direction: column;

@@ -4,21 +4,88 @@
 	<title>Messages and Comments</title>
 	<link rel="stylesheet" type="text/css" href="comments.css">
     <link rel="stylesheet" type="text/css" href="property.css">
-	<link rel="stylesheet" href="mynav.css">
+	<link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <div class="header">
+	<div class="logged_nav">
         <nav>
-            <img src="images/logo.png" class="logo">
-            <img src="images/word_logo.png" class="logo1">
+            <img src="images/nav_bar/web_logo.png" class="logo">
             <ul>
-                <li><a href="stays.html">Stays</a></li>
-                <li><a href="hosts.html">Hosts</a></li>
-                <li><a href="listing.html">Reservation</a></li>
-                <li><a href="comments.html">Comments</a></li>
+                <li><a href="listing.html">My Reservations</a></li>
+                <li><a href="stays.html">Tenant</a></li>
+                <li><a href="hosts.html">Host</a></li>
+                <li>
+                    <img src="images/nav_bar/bell.png" class="bell" onclick="togglebell()">
+                  </ul>
+                </li>
             </ul>
+            <img src="images/nav_bar/user.JPG" class="user-pic" onclick="toggleMenu()">
+
+           <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/nav_bar/user.JPG">
+                    <h3>Owen Zhang</h3>
+                </div>
+                <hr>
+
+                <a href="profile.html" class="sub-menu-link">
+                    <img src="images/nav_bar/profile.png">
+                    <p>Edit Profile</p>
+                </a>
+                <a href="comments.html" class="sub-menu-link">
+                    <img src="images/nav_bar/help.png">
+                    <p>Comments</p>
+                </a>
+                <a href="home.html" class="sub-menu-link">
+                    <img src="images/nav_bar/logout.png">
+                    <p>Logout</p>
+                </a>
+
+            </div>
+           </div>
+
+           <div class="notify-wrap" id="notify">
+            <div class="notify">
+                <a href="#" class="notify-link">
+                    <img src="images/nav_bar/red_bell.png">
+                    <h3>Notification</h3>
+                </a>
+                <hr>
+
+                <a href="#" class="notify-link">
+                    <img src="images/nav_bar/Jac.jpg">
+                    <p>Message from Jacqueline</p>
+                </a>
+                <a href="#" class="notify-link">
+                    <img src="images/nav_bar/terry.jpeg">
+                    <p>Message from Terry</p>
+                </a><a href="#" class="notify-link">
+                    <img src="images/nav_bar/Vincent.jpeg">
+                    <p>Message from Vincent</p>
+                </a>
+
+            </div>
+           </div>
+
         </nav>
     </div>
+
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+
+    let notify = document.getElementById("notify");
+
+    function togglebell(){
+        notify.classList.toggle("open-menu");
+    }
+</script>
 
 	<section class="main">
 		<div class="messages">
