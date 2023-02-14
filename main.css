@@ -24,7 +24,50 @@
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/house.jpeg);
     background-size: cover;
     background-position: center;
+    min-height: 600px;
     
+}
+
+@media only screen and (max-width: 700px){
+    .selectorder{
+        margin-top: -500px;
+        margin-bottom: 30px;
+    }
+    .search-bar{
+        width: 90%;
+        max-height: 480px;
+        margin: 30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .search-bar form{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+    .search-bar form input{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        padding-bottom: 10px;
+        
+    }
+    .search-bar form label{
+        width: 100%;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .search-bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    
+        transform: translate(-50%, 50%);
+    }
 }
 
 .header h1{
@@ -372,6 +415,7 @@ span{
     border: 0;
     outline: none;
     background: transparent;
+    
 }
 #select{
     background: #fff;
@@ -382,6 +426,7 @@ span{
     cursor: pointer;
     position: relative;
     margin-top: -4pt;
+    
 }
 #select img{
     width: 15px;
@@ -399,14 +444,18 @@ span{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s;
+    
 }
 #select ul li{
     padding: 10px 20px;
     cursor: pointer;
+    
 }
 
 #select ul.open{
     max-height: 300px;
+    
+    
 }
 
 .orders{
