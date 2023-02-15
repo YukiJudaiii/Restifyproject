@@ -13,7 +13,7 @@
     background-position: center;
     background-size: cover;
     position: absolute;
-    min-height: 100%;
+    min-height: 800px;
     max-width: 100%;
 
 }
@@ -43,7 +43,7 @@
     border-radius: 10%;
     padding: 50px 20px;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: #F5F5F5;
 }
 
 .profile_pic{
@@ -148,6 +148,7 @@ input{
     border: 0;
     outline: 0;
     padding: 18px 15px;
+
 }
 .input-field i{
     margin-left: 15px;
@@ -172,4 +173,45 @@ form p a{
     transform: translateY(20px);
     margin: 10px;
     min-width: 80px;
+}
+
+@media only screen and (max-width: 1400px){
+    .profile_left{
+        left: 3%;
+    }
+    .profile_right{
+        right: 3%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .profile{
+        background-image: none;
+    }
+    .profile_left{
+        position: absolute;
+        top: 80px;
+        border: none;
+        padding: 15px;
+        margin: 0;
+        left: 10%;
+        width: 80%;
+    }
+    .profile_right{
+        position: absolute;
+        top: 530px;
+        border: none;
+        padding: 20px;
+        margin: 0;
+        left: 10%;
+        width: 80%;
+    }
+
+    .input-pair{
+        flex-direction: column;
+    }
+
+    .input-field{
+        max-width: 65vw;
+    }
 }
