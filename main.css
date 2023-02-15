@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.hero{
+.index_head{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
@@ -110,6 +110,11 @@ nav{
 
 nav .logo{
     width: 160px;
+    margin-left: -40px;
+}
+
+.index_head .logo{
+    width: 60px;
     margin-left: -40px;
 }
 
@@ -284,7 +289,7 @@ span{
     color: #333;
     text-align: center;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-
+/* ------cities property---------- */
 .countries{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -306,7 +311,7 @@ span{
     text-align: left;
     font-size: small;
 }
-
+/* ------cities property---------- */
 .cities{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -353,6 +358,8 @@ span{
     font-size: small;
 }
 
+/* ------footer for the main page---------- */
+
 .footer{
     margin-top: 100px;
     width: 100%;
@@ -364,7 +371,7 @@ span{
 .footer div{
     text-align: center;
 }
-.footer .col-2{
+.footer .subscribe{
     flex-grow: 2;
 }
 .footer div h3{
@@ -372,7 +379,7 @@ span{
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-.footer .col-1 a{
+.footer .useful_link a{
     display: block;
     text-decoration: none;
     color: #efefef;
@@ -414,10 +421,9 @@ span{
     border-radius: 4px;
     display: block;
     border: 0;
-    outline: none;
     background: transparent;
-    
 }
+
 #select{
     background: #fff;
     display: flex;
@@ -429,9 +435,11 @@ span{
     margin-top: -4pt;
     
 }
+
 #select img{
     width: 15px;
 }
+
 #select ul{
     font-size: 20px;
     position: absolute;
@@ -455,8 +463,6 @@ span{
 
 #select ul.open{
     max-height: 300px;
-    
-    
 }
 
 .orders{
