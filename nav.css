@@ -63,6 +63,7 @@ nav ul li a{
     overflow: hidden;
     z-index: 999;
     transition: max-height 0.5s;
+    background: #e5e5e5;
 }
 .sub-menu-wrap.open-menu{
     max-height: 400px;
@@ -129,6 +130,7 @@ nav ul li a{
     overflow: hidden;
     z-index: 998;
     transition: max-height 0.5s;
+    background: #e5e5e5;
 }
 .notify-wrap.open-menu{
     max-height: 800px;
@@ -174,4 +176,24 @@ nav ul li a{
 }
 .notify-link:hover p{
     font-weight: 600;
+}
+
+@media only screen and (max-width: 800px){
+    nav {
+        display: block;
+        text-align: center;
+    }
+    nav ul{
+        display: block;
+        text-align: center;
+    }
+
+    .sub-menu-wrap{
+       top: 100%;
+
+    }
+    .notify-wrap{
+       top: 100%;
+       
+    }
 }
