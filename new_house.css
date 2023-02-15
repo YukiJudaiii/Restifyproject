@@ -43,7 +43,7 @@
     border-radius: 10%;
     padding: 50px 20px;
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: #F5F5F5;
 }
 
 .profile_pic{
@@ -136,6 +136,7 @@
     max-height: 65px;
     transition: max-height 0.5s;
     overflow: hidden;
+    max-width: 20vw;
 }
 .input-field p{
     color: #394159;
@@ -173,4 +174,64 @@ form p a{
     transform: translateY(20px);
     margin: 10px;
     min-width: 80px;
+}
+
+@media only screen and (max-width: 1500px){
+    .profile_left{
+        left: 3%;
+    }
+    .profile_right{
+        right: 3%;
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    .profile{
+        background-image: none;
+    }
+    .profile_left{
+        position: absolute;
+        top: 50px;
+        border: none;
+        padding: 15px;
+        margin: 0;
+        left: 20%;
+        width: 60%;
+    }
+    .profile_right{
+        position: absolute;
+        top: 530px;
+        border: none;
+        padding: 20px;
+        margin: 0;
+        left: 20%;
+        width: 60%;
+    }
+
+    .input-pair{
+        flex-direction: column;
+    }
+
+    .input-field{
+        max-width: 50vw;
+    }
+    .btn-field{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .profile_left{
+        width: 80%;
+        left: 10%;
+    }
+
+    .profile_right{
+        width: 80%;
+        left: 10%;
+    }
+    .input-field{
+        max-width: 70vw;
+    }
 }
