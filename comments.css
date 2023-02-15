@@ -91,3 +91,65 @@ h2 {
 	font-size: 14px;
 	color: #999;
 }
+
+.write-comment {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+	width: 80%;
+}
+  
+.write-comment h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.write-comment form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.write-comment  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+  
+.write-comment label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin-bottom: 15px;
+}
+  
+.write-comment form input,
+.write-comment form select,
+.write-comment form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    float: left;
+}
+
+  
+.write-comment .submit-button {
+    background-color: #ff5351;
+    color: white;
+    border: 2px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+  
+.write-comment .submit-button:hover {
+    background-color: #005588;
+}

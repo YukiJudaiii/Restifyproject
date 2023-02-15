@@ -89,46 +89,15 @@
 </script>
 
 	<section class="main">
-		<div class="messages">
-			<h2>Messages</h2>
-			<div class="message">
-				<div class="avatar">
-					<img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Avatar">
-				</div>
-				<div class="message-content">
-					<div class="message-header">
-						<h3>Barry Allen</h3>
-						<span>5 hours ago</span>
-					</div>
-					<div class="message-body">
-						<p>Hello, I am Barry, your place is so nice!</p>
-					</div>
-				</div>
-			</div>
-			<div class="message">
-				<div class="avatar">
-					<img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Avatar">
-				</div>
-				<div class="message-content">
-					<div class="message-header">
-						<h3>Amy Swift</h3>
-						<span>1 day ago</span>
-					</div>
-					<div class="message-body">
-						<p>Hi, can I make reservation with you?</p>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="comments">
 			<h2>Comments</h2>
 			<div class="comment">
 				<div class="avatar">
-					<img src="https://randomuser.me/api/portraits/men/7.jpg" alt="Avatar">
+					<img src="./images/nav_bar/Jac.jpg" alt="Avatar">
 				</div>
 				<div class="comment-content">
 					<div class="comment-header">
-						<h3>Tom Sun</h3>
+						<h3>Jacqueline Liu</h3>
 						<span>5 hours ago</span>
 					</div>
 					<div class="comment-body">
@@ -138,19 +107,31 @@
 			</div>
 			<div class="comment">
 				<div class="avatar">
-					<img src="https://randomuser.me/api/portraits/women/15.jpg" alt="Avatar">
+					<img src="./images/nav_bar/terry.jpeg" alt="Avatar">
 				</div>
 				<div class="comment-content">
 					<div class="comment-header">
-						<h3>Lisa Wanda</h3>
+						<h3>Terry Tu</h3>
 						<span>3 days ago</span>
 					</div>
 					<div class="comment-body">
-						<p>What a nice place to stay!</p>
+						<p>Nice guest!</p>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="write-comment">
+            <h3>Rate other users:</h3>
+			
+            <form>
+				<label for="review">User ID</label>
+                <input id="userid" name="userid" rows="5" required></input>
+                <label for="review">Review</label>
+                <textarea id="review" name="review" rows="5" required></textarea>
+
+              <button type="submit" class="submit-button">Submit Review</button>
+            </form>
+        </div>
 	</section>
 
 </body>
