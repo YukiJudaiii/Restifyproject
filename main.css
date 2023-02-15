@@ -469,3 +469,8 @@ span{
     font-size: medium;
     font-family: 'Poppins', sans-serif;
 }
+
+.guest {
+    margin-bottom: 12px;
+    max-width: 150px;
+}

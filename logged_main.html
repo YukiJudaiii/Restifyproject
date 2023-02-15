@@ -99,21 +99,28 @@
                     </div>
                     <div>
                       <label>Check in</label>
-                      <input type="text" placeholder="Add Date">
+                      <input type="text" placeholder="02/14/2023">
                   </div>
                   <div>
                       <label>Check out</label>
-                      <input type="text" placeholder="Add Date">
+                      <input type="text" placeholder="02/15/2023">
                   </div>
                   <div>
                       <label>Guest</label>
-                      <input type="text" placeholder="Add Guest">
+                      <select id="guest" name="guest" class="guest" required>
+                        <option value="">Select guests number</option>
+                        <option value="5">1 guest</option>
+                        <option value="4">2 guests</option>
+                        <option value="3">3 guests</option>
+                        <option value="2">4 guests</option>
+                        <option value="1">5 guests +</option>
+                      </select>
                   </div>
             
                 <div>
                     <input class="container">
                     
-                            <div id="select">
+                            <div id="select" class="selectorder">
                                 <p id="selectText">Sort By <img src="images/arrow.png"></p>
                                 
                                 <ul id="list">
@@ -232,15 +239,14 @@
 </body>
 <footer>
     <div class="footer">
-        <div class="col-1">
+        <div class="useful_link">
             <h3>USEFUL LINKS</h3>
-            <a href="#">My Reservations</a>
-            <a href="#">My Profile</a>
-            <a href="#">Comments</a>
+            <a href="#">About</a>
             <a href="#">Contact</a>
-            
+            <a href="#">Sign Up</a>
+            <a href="#">Log in</a>
         </div>
-        <div class="col-2">
+        <div class="subscribe">
             <h3>SUBSCRIBE</h3>
             <p>Sign up and we'll send the best deals to you</p>
             <form>
@@ -249,7 +255,7 @@
                 <button type="submit">SUBSCRIBE NOW</button>
             </form>
         </div>
-        <div class="col-3">
+        <div>
             <h3>CONTACT</h3>
             <p>123, XYZ Road, BSK 3<br>Toronto, ON, Canada</p>
             <div class="social-icons">
