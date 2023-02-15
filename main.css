@@ -30,7 +30,7 @@
     
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1300px){
     .selectorder{
         margin-top: -500px;
         margin-bottom: 30px;
@@ -480,3 +480,27 @@ span{
 .option{
     margin-bottom: 12px;
 }
+
+.container1{
+    margin-top: 60px;
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/house.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    
+}
+
+.container1 p{
+    margin-bottom: 15pt;
+    font-weight:bolder;
+    
+}
+
+.guest{
+    margin-bottom: 12px;
+    max-width: 100px;
+    margin-right: 15px;
+    }
