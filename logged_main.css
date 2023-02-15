@@ -24,7 +24,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/house.jpeg);
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    min-height: 100px;
     
 }
 
@@ -286,6 +286,7 @@ span{
     background: #394159;
     color: #efefef;
     display: flex;
+    flex-direction: column;
 }
 .footer div{
     text-align: center;
@@ -323,13 +324,11 @@ span{
     font-size: 15px;
     cursor: pointer;
 }
-.footer .social-icons{
-    margin-top: 20px;
-}
-.footer .social-icons i{
-    font-size: 22px;
-    margin: 10px;
-    cursor: pointer;
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .search-bar1{
